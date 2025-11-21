@@ -19,3 +19,5 @@ Get it from the **releases**, or create one yourself:
 ```
 pyinstaller --onefile --windowed --icon=skull.ico --add-data "skull.ico;."  run.py
 ```
+
+<img width="931" height="592" alt="image" src="https://github.com/user-attachments/assets/1c44a06a-bcd2-48cb-a01f-bf1750f44ef3" />
