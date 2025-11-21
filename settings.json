@@ -1,0 +1,23 @@
+{
+  "root_directory": "C:\\projs\\warzone",
+  "checked_paths": [
+    "C:\\projs\\warzone\\Sources\\Cards.cpp",
+    "C:\\projs\\warzone\\Sources\\CommandProcessing.cpp",
+    "C:\\projs\\warzone\\Sources\\GameEngine.cpp",
+    "C:\\projs\\warzone\\Sources\\LoggingObserver.cpp",
+    "C:\\projs\\warzone\\Sources\\MainDriver.cpp",
+    "C:\\projs\\warzone\\Sources\\Map.cpp",
+    "C:\\projs\\warzone\\Sources\\Orders.cpp",
+    "C:\\projs\\warzone\\Sources\\OrdersDriver.cpp",
+    "C:\\projs\\warzone\\Sources\\Player.cpp"
+  ],
+  "cpp_standard": "c++17",
+  "options": {
+    "Optimize": false,
+    "Most Useful Warnings": true,
+    "Debug info": true,
+    "Warnings as errors": false,
+    "Link static": false
+  },
+  "output_file_name": "a.out"
+}
