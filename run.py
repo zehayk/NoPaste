@@ -244,7 +244,7 @@ class MyApp(tk.Tk):
         # state for options popup
         self.options = {
             "Optimize": tk.BooleanVar(value=False),
-            "Most Useful Warnings": tk.BooleanVar(value=True),
+            "Warn All": tk.BooleanVar(value=True),
             "Debug info": tk.BooleanVar(value=True),
             "Warnings as errors": tk.BooleanVar(value=False),
             "Link static": tk.BooleanVar(value=False),

@@ -115,7 +115,7 @@ def compile_in_wsl(sources: List[str],
     options_str = ""
     if custom_options is not None:
         options_str += " -O2 " if custom_options["Optimize"].get() else ""
-        options_str += " -Wall " if custom_options["Most Useful Warnings"].get() else ""
+        options_str += " -Wall " if custom_options["Warn All"].get() else ""
         options_str += " -g " if custom_options["Debug info"].get() else ""
         options_str += " -Werror " if custom_options["Warnings as errors"].get() else ""
         options_str += " -static " if custom_options["Link static"].get() else ""
